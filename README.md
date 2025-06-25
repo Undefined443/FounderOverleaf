@@ -29,6 +29,6 @@ aria2c -c -i founder.list
 ## 编译
 
 ```sh
-latexmk main.tex  # 编译
+latexmk main.tex  # 编译 PDF
 latexmk -c        # 清理辅助文件
 ```

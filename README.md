@@ -20,7 +20,7 @@
 - `FZZhunYuan-M02.ttf`：方正准圆
 - `FZLiShu-S01.ttf`：方正隶书
 
-可以通过以下命令下载：
+可以通过如下命令下载：
 
 ```sh
 aria2c -c -i founder.list
@@ -29,6 +29,5 @@ aria2c -c -i founder.list
 ## 编译
 
 ```sh
-latexmk main.tex  # 编译
-latexmk -c        # 清理辅助文件
+latexmk -xelatex main.tex && latexmk -c  # 编译并清理辅助文件
 ```
